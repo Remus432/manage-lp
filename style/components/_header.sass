@@ -1,0 +1,64 @@
+.header
+  
+  padding: 4rem
+
+  &__nav
+    align-items: center
+    display: flex
+    justify-content: space-between
+    position: relative
+    z-index: 2
+
+    &-hamburger
+      cursor: pointer
+
+    &-btn
+      display: none
+
+  &__content
+    align-items: center
+    display: flex
+    flex-direction: column
+    margin-top: 4rem
+
+    &-text
+      display: flex
+      flex-direction: column
+      align-items: center
+
+    &-headline
+      width: 80%
+      margin: auto
+
+    &-description
+      color: $dark-grayish-blue
+      margin: 2rem auto
+      width: 70%
+
+    &-illustration
+      width: 450px
+
+
+.active
+  align-items: center
+  display: flex
+  flex-direction: column
+  background: #fff
+  width: 90%
+  left: 50%
+  transform: translateX(-50%)
+  position: absolute
+  padding: 2rem
+  top: 100px
+
+  & li
+    margin: 1rem 0
+
+  & li a 
+    color: $dark-blue
+
+    &:hover
+      color: lighten($dark-blue, 50%)
+
+.hidden
+  display: none

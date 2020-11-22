@@ -1,0 +1,57 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+*:focus
+  outline: none
+
+html
+  font-size: 62.5%
+
+body
+  font-size: 1.6rem
+  font-family: 'Be Vietnam', sans-serif
+  overflow-x: hidden
+
+h1, h2
+  font-size: 4rem
+
+h1, h2, h3
+  color: $dark-blue
+  margin: auto
+  text-align: center
+
+p
+  color: $dark-grayish-blue
+  line-height: 3rem
+
+li
+  list-style: none
+
+a
+  text-decoration: none
+
+.overlay
+  position: absolute
+  top: 0
+  left: 0
+  background-image: linear-gradient(to bottom, transparent, rgba(#000, .4))
+  width: 100%
+  height: 100%
+  z-index: 1
+
+.hide
+  display: none
+
+.show
+  display: block
+
+.err
+  color: $bright-red
+  position: absolute
+  left: 20px
+  bottom: -35px
+  font-style: italic
+  font-size: 1.2rem
+  opacity: .7

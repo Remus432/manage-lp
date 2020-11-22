@@ -1,0 +1,37 @@
+.features
+  padding: 4rem
+
+  &__description
+    margin: 2rem auto
+    text-align: center
+    width: 80%
+
+  &__grid
+    display: grid
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 4rem
+
+    &-item
+      position: relative
+
+      &-headline
+        align-items: center
+        background: $very-pale-red
+        border-top-left-radius: 4rem
+        border-bottom-left-radius: 4rem
+        display: flex
+        width: 110%
+
+        & h3
+          margin: 0 2.5rem
+
+        & span
+          background: $bright-red
+          border-radius: 4rem
+          color: #fff
+          font-weight: 500
+          font-size: 2.5rem
+          padding: .5rem 3rem
+
+      &-description
+        margin-top: 2rem
